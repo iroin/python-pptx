@@ -1,3 +1,16 @@
+Create release with twine
+
+- install twine "pip install twine"
+- create sdist witgh "make sdist"
+- Create file "$HOME/.pypirc" with config
+- Upload the dist folder with twine "twine upload dist/*"
+
+
+\[pypi\]
+  username = __token__
+  password = <pypi token>
+
+
 .. image:: https://travis-ci.org/scanny/python-pptx.svg?branch=master
    :target: https://travis-ci.org/scanny/python-pptx
 

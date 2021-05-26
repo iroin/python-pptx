@@ -31,13 +31,13 @@ license = ascii_bytes_from(thisdir, "LICENSE")
 version = re.search(r'__version__ = "([^"]+)"', init_py).group(1)
 
 
-NAME = "python-pptx"
+NAME = "iroin-python-pptx"
 VERSION = version
 DESCRIPTION = "Generate and manipulate Open XML PowerPoint (.pptx) files"
 KEYWORDS = "powerpoint ppt pptx office open xml"
-AUTHOR = "Steve Canny"
-AUTHOR_EMAIL = "python-pptx@googlegroups.com"
-URL = "http://github.com/scanny/python-pptx"
+AUTHOR = "iroin"
+AUTHOR_EMAIL = "admin@iroin.io"
+URL = "https://github.com/iroin/python-pptx"
 LICENSE = license
 PACKAGES = find_packages(exclude=["tests", "tests.*"])
 PACKAGE_DATA = {"pptx": ["templates/*"]}
@@ -62,7 +62,7 @@ CLASSIFIERS = [
     "Topic :: Software Development :: Libraries",
 ]
 
-LONG_DESCRIPTION = readme + "\n\n" + history
+LONG_DESCRIPTION = "Some Text"
 
 ZIP_SAFE = False
 
